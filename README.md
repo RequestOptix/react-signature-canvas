@@ -3,8 +3,8 @@
 # react-signature-canvas-react17-compatible
 
 A fork of react-signature-canvas that doesn't block React 17
-react-signature-canvas:
-https://github.com/agilgur5/react-signature-canvas
+
+react-signature-canvas: https://github.com/agilgur5/react-signature-canvas
 
 Disclaimer: I'm not good at this. You may be better off doing this yourself. If you do, please let me know and I can end this package's suffering.
 
