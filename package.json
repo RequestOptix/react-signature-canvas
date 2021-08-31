@@ -9,13 +9,13 @@
   ],
   "author": "Mark Wong",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/agilgur5/react-signature-canvas",
+  "homepage": "https://github.com/VLegatus/react-signature-canvas-react17-compatible",
   "repository": {
     "type": "git",
-    "url": "https://github.com/agilgur5/react-signature-canvas.git"
+    "url": "https://github.com/VLegatus/react-signature-canvas-react17-compatible.git"
   },
   "bugs": {
-    "url": "https://github.com/agilgur5/react-signature-canvas/issues"
+    "url": "https://github.com/VLegatus/react-signature-canvas-react17-compatible/issues"
   },
   "keywords": [
     "react",
@@ -60,7 +60,6 @@
     "@babel/preset-stage-2": "^7.8.3",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.2.2",
-    "canvas-prebuilt": "^1.6.11",
     "css-loader": "^5.2.6",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
