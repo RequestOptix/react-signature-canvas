@@ -10,6 +10,8 @@ Disclaimer: I'm not good at this. You may be better off doing this yourself. If 
 
 I made the name stupid and stupidly long in hopes that someone else would do better than me and this package can hide in obscurity.
 
+Also, I borked the example because I updated webpack.
+
 # react-signature-canvas's original README
 
 <p align='center'>
