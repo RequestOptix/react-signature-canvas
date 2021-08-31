@@ -1,11 +1,23 @@
 <!-- markdownlint-disable first-line-heading -->
+
+# react-signature-canvas-react17-compatible
+
+A fork of react-signature-canvas that doesn't block React 17
+react-signature-canvas:
+https://github.com/agilgur5/react-signature-canvas
+
+Disclaimer: I'm not good at this. You may be better off doing this yourself. If you do, please let me know and I can end this package's suffering.
+
+I made the name stupid and stupidly long in hopes that someone else would do better than me and this package can hide in obscurity.
+
+# react-signature-canvas's original README
+
 <p align='center'>
   <img height='200' src='https://media.giphy.com/media/KH1emXYVIh1hT6UrrU/giphy.gif' />
 </p>
 
-# react-signature-canvas
-
 <!-- releases / versioning -->
+
 [![package-json](https://img.shields.io/github/package-json/v/agilgur5/react-signature-canvas.svg)](https://npmjs.org/package/react-signature-canvas)
 [![releases](https://img.shields.io/github/tag-pre/agilgur5/react-signature-canvas.svg)](https://github.com/agilgur5/react-signature-canvas/releases)
 [![commits](https://img.shields.io/github/commits-since/agilgur5/react-signature-canvas/v1.0.3.svg)](https://github.com/agilgur5/react-signature-canvas/commits/master)
@@ -35,15 +47,17 @@ This fork also allows you to directly pass [props](#props) to the underlying can
 ## Usage
 
 ```javascript
-import React from 'react'
-import ReactDOM from 'react-dom'
-import SignatureCanvas from 'react-signature-canvas'
+import React from "react";
+import ReactDOM from "react-dom";
+import SignatureCanvas from "react-signature-canvas";
 
 ReactDOM.render(
-  <SignatureCanvas penColor='green'
-    canvasProps={{width: 500, height: 200, className: 'sigCanvas'}} />,
-  document.getElementById('react-container')
-)
+  <SignatureCanvas
+    penColor="green"
+    canvasProps={{ width: 500, height: 200, className: "sigCanvas" }}
+  />,
+  document.getElementById("react-container")
+);
 ```
 
 ### Props
@@ -82,7 +96,11 @@ Of these props, all, except for `canvasProps` and `clearOnResize`, are passed th
 All API methods require a ref to the SignatureCanvas in order to use and are instance methods of the ref.
 
 ```javascript
-<SignatureCanvas ref={(ref) => { this.sigCanvas = ref }} />
+<SignatureCanvas
+  ref={(ref) => {
+    this.sigCanvas = ref;
+  }}
+/>
 ```
 
 - `isEmpty()` : `boolean`, self-explanatory
@@ -107,8 +125,8 @@ The API methods are _mostly_ just wrappers around [`signature_pad`'s API](https:
 You can interact with the example in a few different ways:
 
 1. Run `npm start` and navigate to [http://localhost:8080/](http://localhost:8080/).<br>
-Hosted locally via the [`example/`](example/) directory
+   Hosted locally via the [`example/`](example/) directory
 1. [View the live demo here](https://agilgur5.github.io/react-signature-canvas/).<br>
-Hosted via the [`gh-pages` branch](https://github.com/agilgur5/react-signature-canvas/tree/gh-pages), a standalone version of the code in [`example/`](example/)
+   Hosted via the [`gh-pages` branch](https://github.com/agilgur5/react-signature-canvas/tree/gh-pages), a standalone version of the code in [`example/`](example/)
 1. [Play with the CodeSandbox here](https://codesandbox.io/s/github/agilgur5/react-signature-canvas/tree/cra-example).<br>
-Hosted via the [`cra-example` branch](https://github.com/agilgur5/react-signature-canvas/tree/gh-pages), a standalone version using [Create React App](https://github.com/facebook/create-react-app).
+   Hosted via the [`cra-example` branch](https://github.com/agilgur5/react-signature-canvas/tree/gh-pages), a standalone version using [Create React App](https://github.com/facebook/create-react-app).

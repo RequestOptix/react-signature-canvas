@@ -1,7 +1,9 @@
 # Changelog
 
-The changelog is currently hosted on [the GitHub Releases page](https://github.com/agilgur5/react-signature-canvas/releases).<br>
-It is currently mostly a summary and list of commits made before any tag.
-The commits in this library mostly follow a convention and tend to be quite detailed.
+Changes to source: Ensure package can work with React 17. Also, tried my best to meet compliance with Apache 2.0.
+If there are any problems with compliance, please let me know.
+<br>
 
-This project adheres to [Semantic Versioning](http://semver.org/).
+The source changelog is currently hosted on [the GitHub Releases page](https://github.com/agilgur5/react-signature-canvas/releases).<br>
+
+The source project adheres to [Semantic Versioning](http://semver.org/).
